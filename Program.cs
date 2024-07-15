@@ -384,22 +384,22 @@ namespace Picktor
         private string GetHelpMessage()
         {
             return @"
-                **Picktor Bot Commands:**
+**Picktor - Image Manipulation Bot Commands:**
 
-                1. `!resize <width> <height>` - Resize the attached image to the specified width and height.
-                2. `!grayscale` - Convert the attached image to grayscale.
-                3. `!rotate <angle>` - Rotate the attached image by the specified angle in degrees.
-                4. `!flip <horizontal|vertical>` - Flip the attached image horizontally or vertically.
-                5. `!crop <x> <y> <width> <height>` - Crop the attached image with the specified rectangle dimensions.
-                6. `!addtext <your text>` - Add the specified text to the attached image.
-                7. `!blur` - Apply a blur effect to the attached image.
-                8. `!sharpen` - Apply a sharpen effect to the attached image.
-                9. `!sepia` - Apply a sepia effect to the attached image.
-                10. `!invert` - Invert the colors of the attached image.
-                11. `!border` - Add a red border to the attached image.
+1. `!resize <width> <height>` - Resize the attached image to the specified width and height.
+2. `!grayscale` - Convert the attached image to grayscale.
+3. `!rotate <angle>` - Rotate the attached image by the specified angle in degrees.
+4. `!flip <horizontal|vertical>` - Flip the attached image horizontally or vertically.
+5. `!crop <x> <y> <width> <height>` - Crop the attached image with the specified rectangle dimensions.
+6. `!addtext <your text>` - Add the specified text to the attached image.
+7. `!blur` - Apply a blur effect to the attached image.
+8. `!sharpen` - Apply a sharpen effect to the attached image.
+9. `!sepia` - Apply a sepia effect to the attached image.
+10. `!invert` - Invert the colors of the attached image.
+11. `!border` - Add a red border to the attached image.
 
-                To use a command, type the command followed by the required parameters (if any) and attach an image.
-                ";
+To use a command, type the command followed by the required parameters (if any) and attach an image.
+";
         }
 
         static void Main(string[] args) => new Program().MainAsync().GetAwaiter().GetResult();
