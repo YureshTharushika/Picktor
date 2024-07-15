@@ -1,5 +1,6 @@
 Picktor - Discord Image Manipulation Bot
 ========================================
+![Picktor Screenshot](./screenshots/picktor.png)
 
 Picktor is a Discord bot that provides various image manipulation functionalities directly within your Discord server. It allows users to resize, rotate, grayscale, and apply other effects to images by simply using commands.
 
